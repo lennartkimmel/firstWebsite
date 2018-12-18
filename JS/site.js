@@ -83,3 +83,13 @@ function getCookie(cname) {
     }
     return "";
 }
+
+//responsive navi-bar
+function myFunction() {
+    var x = document.getElementById("myNaviBlock");
+    if (x.className === "naviBlock") {
+      x.className += " responsive";
+    } else {
+      x.className = "naviBlock";
+    }
+  }
